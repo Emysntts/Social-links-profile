@@ -1,5 +1,6 @@
 .attribution {
-  font-size: 11px;
+  /* font-size: 11px; */
+  font-size: 14px;
   text-align: center;
   color: white;
   margin-top: 30px;
@@ -116,11 +117,12 @@ a {
 }
 
 /* a:hover {
-    color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 20%);
   transition: 0.3s all;
 } */
 
-a > span:hover {
+a > span:hover,
+a:hover {
   color: hsl(0, 0%, 20%);
   transition: 0.3s all;
 }
@@ -133,9 +135,10 @@ a > span:hover {
 /* trocando o hover de li para a class button-link */
 .button-link:hover {
   background-color: hsl(75, 94%, 57%);
-  transition: 0.4s all; /* aumentei de 0.3 para 0.4s /*
+  /* transition: 0.3s all;  */
   /* linha adicionada no hover do button-link */
   padding: 14px;
   padding-inline: 90px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s all;
 }
